@@ -5,6 +5,8 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
+import { createBrowserRouter } from 'react-router';
+
 import {Link} from 'react-scroll';
 
 import './NavbarStyles.css'
@@ -22,6 +24,7 @@ function Navbar() {
                     <h2>BEACHES.</h2>
                 </div>
                     <ul className="nav-menu">
+                        <li>New Home Page</li>
                         <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
                         <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>            
                         <Link to='carousel' smooth={true} duration={500}><li>Travel</li></Link> 
